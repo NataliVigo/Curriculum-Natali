@@ -1,0 +1,57 @@
+h1{
+  color: rgb(99, 0, 139);
+  font-family: cursive;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(99, 0, 139);
+  padding-bottom: 5px
+}
+h2{
+  color: rgb(124, 5, 5);
+  font-family: monospace;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+h3{
+  color: rgba(218, 0, 46, 0.91);
+}
+li{
+  font-weight: bold;
+}
+body{
+  background-color: rgb(255, 206, 200);
+}
+img{
+  margin-top: 30px
+}
+#izquierda{
+  float: left;
+  width: 20%;
+}
+#derecha{
+  float: right;
+  width: 80%;
+}
+#opciones{
+  list-style: none;
+  padding: 0px;
+  padding-top: 5px;
+}
+.contenido{
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+.descripción{
+  border-bottom: 2px dotted rgba(218, 0, 46, 0.91);
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(1, 161, 204);
+}
+.lista-de-datos{
+  padding: 0px;
+  list-style: none;
+}

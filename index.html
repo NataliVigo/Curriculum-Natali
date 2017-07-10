@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/unslider.js"></script>
+  </head>
+  <body>
+    <div id="izquierda">
+      <img src="WhatsApp Image 2017-05-12 at 18.39.43.jpeg" alt="">
+      <ul id="opciones">
+        <li><a href="#Presentación">Presentación</a></li>
+        <li><a href="#Formación">Formación</a></li>
+        <li><a href="#Experiencia">Experiencia</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+    <div id="derecha">
+      <div id="Presentación" class="contenido">
+        <h1>¿Quién soy?</h1>
+        <h2>Natali Vigo Guerrero</h2>
+        <h3>Front-End Jr.</h3>
+        <ul class="lista-de-datos">
+          <li class="descripción">Nombre: Natali Vigo Guerrero</li>
+          <li class="descripción">Edad: 17</li>
+          <li class="descripción">Dirección: 11 de Setiembre de 1888 2290</li>
+          <li class="descripción">Email: natalivigo@hotmail.com</li>
+          <li class="descripción">Teléfono: +54 112 5246108</li>
+          <li class="descripción">Skype: ------</li>
+        </ul>
+        <p>Soy una persona con objetivos muy claros, entre los cuales se encuentra el de ampliar mis conocimientos en diferentes ámbitos.
+          <br> Tengo gustos variados. Además, soy alguien que puede aportar diferentes perspectivas y brindar opiniones a partir de diferentes puntos de vista. Tengo capacidad de poder trabajar en equipo y de forma individual de manera igualmente eficiente.
+        </p>
+      </div>
+      <div id="Formación" class="contenido">
+        <h1>Formación</h1>
+        <h3>Perito Mercantil Escuela Superior de Comercio "Carlos Pellegrini" - UBA</h3>
+          <p>Estoy cursando el nivel de educación media en la Escuela Superior de Comercio "Carlos Pellegrini", dependiente de la Universidad de Buenos Aires (UBA), con especialización en contabilidad, por lo que llevo sistema informativo contable, economía y sistemas administrativos, pero también llevo materias como derecho, sociología, psicología, programación, por lo que tengo una orientación en diferentes disciplinas.
+            <br>Al finalizar la cursada en la escuela, recibo el título de perito mercantil.
+            <br>La materia de programación al que asisto en esta institución, es uno de los talleres opcionales que se encuentran en el departamento de informática para cursar en contraturno, que elegí debido a mi profundo interés en esta área.
+          </p>
+        <h3>Curso HTML5 - Acámica</h3>
+          <p>Este curso de HTML5 de Acámica me proporcionó los conocimientos suficientes para poder armar, de forma básica, una página web y darle estilo.</p>
+      </div>
+      <div id="Experiencia" class="contenido">
+        <h1>Logros académicos</h1>
+          <p>Recibí una mención de honor en el torneo Urbano-Metropolitano de las Olimpiadas de Matemática Argentina (OMA), realizado en un hotel de la localidad de Mar del plata del 7/09/2016 al 9/09/2016, y durante mi participación en el año 2016 logré llegar hasta la instancia regional, anterior a la instancia nacional.</p>
+      </div>
+      <div id="Portfolio" class="contenido">
+        <h1>Portfolio</h1>
+        <div class="slider">
+          <ul>
+            <li><iframe src="Noticias/telam.html" width="600" height="600"></iframe></li>
+            <li><iframe src="Rompecabezas NVG/juego.html" width="750" height="600"></iframe></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: true,
+        autoplay: false
+
+      });
+    });
+  </script>
+  </body>
+</html>
